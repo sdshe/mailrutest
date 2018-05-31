@@ -1,0 +1,29 @@
+[
+  {
+    "user": {
+      "name": "afwgxgs@mail.ru",
+      "password": "m1234M1234"
+    },
+    "message": {
+      "to":[ "s.d.muzz@gmail.com", "afwgxgs@mail.ru"],
+      "subject": "test",
+      "textMessage": "testMessage",
+      "attachments": [
+        {"attachmentType": "cloud", "source": "data1.json"},
+        {"attachmentType": "fromHardDrive", "source": "C:\\Windows\\notepad.exe"}
+      ]
+    }
+  },
+  {
+    "user": {
+      "name": "afwgxgs@mail.ru",
+      "password": "m1234M1234"
+    },
+    "message": {
+      "to":[ "afwgxgs@mail.ru"],
+      "subject": "test",
+      "textMessage": "testMessage"
+
+    }
+  }
+]

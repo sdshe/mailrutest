@@ -1,0 +1,6 @@
+{
+  "pathToGeckoWebdriver": "C:\\Program Files\\Mozilla Firefox\\geckodriver.exe",
+  "uploadTimeout": 20,
+  "jumpTimeout": 5,
+  "uploadWinTimeout": 1000
+}
