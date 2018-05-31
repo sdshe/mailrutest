@@ -29,7 +29,7 @@ public class MailruTest {
     WebDriver driver;
 
     @Steps
-    MailruUserSteps mailruUserSteps;
+    private MailruUserSteps mailruUserSteps;
 
     public MailruTest(UserTestData userTestData) {
         this.userTestData = userTestData;
@@ -42,7 +42,7 @@ public class MailruTest {
 
     @Before
     public void init() {
-        System.setProperty("webdriver.gecko.driver", "C:\\Program Files\\Mozilla Firefox\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", settings.pathToGeckoWebdriver);
 
         /*driver = new FirefoxDriver();
         driver.navigate().to("https://mail.ru/");*/
